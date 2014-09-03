@@ -1,0 +1,163 @@
+/* resets css */
+@import "reset.less";
+
+body {
+  font-family: helvetica, "Helvetica neue", Arial, sans-serif;
+  font-size:   12px;
+  line-height: 20px;
+}
+
+
+/* main wrapper */
+#wrapper {
+  width: 500px;
+
+  position: relative;
+
+  padding: 0 10px;
+  margin: 0 auto;
+
+  background-color: #f1f1f1;
+}
+
+/* Counter */
+#counter {
+  width: 200px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  color: #333;
+
+  font-size: 40px;
+  line-height: 60px;
+
+  text-align: center;
+}
+
+/* Counter */
+#timer {
+  position: absolute;
+
+  width: 300px;
+  height: 20px;
+
+  top: 600px;
+  left: 0;
+  background-color: #bbb;
+
+  div {
+    background-color: green;
+    height: 20px;
+  }
+}
+
+/* game field */
+#game-wrapper {
+  width: 300px;
+  height: 600px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: #333;
+
+}
+
+/* game over screen */
+
+#game-over {
+  display: none;
+
+  width: 250px;
+  height: 500px;
+  padding: 100px 25px 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: #333;
+
+  z-index: 100;
+
+  text-align: center;
+  color: white;
+
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* vessel */
+#vessel {
+  position: absolute;
+
+  width: 15px;
+  height: 10px;
+
+  bottom: 20px;
+  left: 140px;
+  div {
+    height: 5px;
+
+    background-color: #eee;
+
+    &:first-child {
+      width: 5px;
+      margin-left: 5px;
+    }
+  }
+}
+
+/* vessel */
+.asteroid {
+  position: absolute;
+
+  width: 40px;
+  height: 40px;
+
+  top: 20px;
+  left: 20px;
+  div {
+    height: 10px;
+
+    background-color: #aaa;
+
+    &:first-child, &:last-child {
+      width: 20px;
+      height: 5px;
+      margin-left: 10px;
+    }
+    &:nth-child(2), &:nth-child(5) {
+      width: 30px;
+      height: 5px;
+      margin-left: 5px;
+    }
+  }
+}
+
+/* bullets */
+.bullet {
+  position: absolute;
+
+  width: 3px;
+  height: 6px;
+
+  background-color: orange;
+
+  bottom: 35px;
+}
+
+
+
+/* bonnus boxes */
+.bonus {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: lightblue;
+}

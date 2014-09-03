@@ -1,0 +1,16 @@
+{
+  "name": "speed destroyer",
+  "version": "0.0.1",
+  "description": "run npm install",
+  "main": "index.html",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-coffee": "~0.11.1",
+    "grunt-contrib-less": "~0.5.2"
+  },
+  "scripts": {
+    "init": "npm install"
+  },
+  "author": "Sébastien Geelen"
+}

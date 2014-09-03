@@ -1,0 +1,25 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+nav ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}
+ins{background-color:#ff9;color:#000;text-decoration:none;}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
+del{text-decoration:line-through;}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+input,select{vertical-align:middle;}
+body{font-family:helvetica,"Helvetica neue",Arial,sans-serif;font-size:12px;line-height:20px;}
+#wrapper{width:500px;position:relative;padding:0 10px;margin:0 auto;background-color:#f1f1f1;}
+#counter{width:200px;position:absolute;top:0;right:0;color:#333;font-size:40px;line-height:60px;text-align:center;}
+#timer{position:absolute;width:300px;height:20px;top:600px;left:0;background-color:#bbb;}#timer div{background-color:green;height:20px;}
+#game-wrapper{width:300px;height:600px;position:absolute;top:0;left:0;background:#333;}
+#game-over{display:none;width:250px;height:500px;padding:100px 25px 0;position:absolute;top:0;left:0;background:#333;z-index:100;text-align:center;color:white;font-size:24px;line-height:32px;}
+#vessel{position:absolute;width:15px;height:10px;bottom:20px;left:140px;}#vessel div{height:5px;background-color:#eee;}#vessel div:first-child{width:5px;margin-left:5px;}
+.asteroid{position:absolute;width:40px;height:40px;top:20px;left:20px;}.asteroid div{height:10px;background-color:#aaa;}.asteroid div:first-child,.asteroid div:last-child{width:20px;height:5px;margin-left:10px;}
+.asteroid div:nth-child(2),.asteroid div:nth-child(5){width:30px;height:5px;margin-left:5px;}
+.bullet{position:absolute;width:3px;height:6px;background-color:orange;bottom:35px;}
+.bonus{position:absolute;width:20px;height:20px;background-color:lightblue;}
